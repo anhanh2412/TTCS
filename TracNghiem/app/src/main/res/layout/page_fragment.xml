@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_ch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi: "
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp">
+
+    </TextView>
+
+    <EditText
+    android:id="@+id/text_A"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="0"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:textSize="15sp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/botron_edittext"
+    android:layout_gravity="center"
+    android:focusable="false"
+    android:clickable="false"
+    android:longClickable="false"
+    android:onClick="onClick"
+    android:cursorVisible="false">
+    </EditText>
+
+    <EditText
+        android:id="@+id/text_B"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botron_edittext"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:clickable="false"
+        android:longClickable="false"
+        android:onClick="onClick"
+        android:cursorVisible="false">
+    </EditText>
+
+    <EditText
+        android:id="@+id/text_C"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botron_edittext"
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:longClickable="false"
+        android:onClick="onClick"
+        android:cursorVisible="false">
+    </EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botron_edittext"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:id="@+id/text_D"
+        android:clickable="false"
+        android:longClickable="false"
+        android:onClick="onClick"
+        android:cursorVisible="false">
+    </EditText>
+
+</LinearLayout>

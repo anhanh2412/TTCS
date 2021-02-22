@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trac Nghiem</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_start">Bạn có 20 câu hỏi trong 20 phút. Mỗi câu hỏi đúng tương đương với 1 điểm.</string>
+    <string name="text_start1">Bạn đã sẵn sàng chưa?.</string>
+</resources>
